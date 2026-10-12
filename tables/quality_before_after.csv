@@ -1,0 +1,3 @@
+stage,rows,columns,missing_cells,duplicate_rows
+raw input,10000,14,0,0
+after quality audit,10000,14,0,0
