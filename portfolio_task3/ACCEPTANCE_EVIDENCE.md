@@ -15,6 +15,7 @@
 | Clean pinned verification environment | results/fresh_environment_verification.json |
 | Fresh-kernel full execution in separate checkout | results/fresh_reproduction_verification.json; results/notebook_execution_verification.json |
 | Exact hashed-file bytes in Git | .gitattributes; results/git_byte_preservation_verification.json |
+| Published GitHub contents and raw-row inference | results/remote_verification.json |
 | Incremental commits and pushes | Repository Git history; PHASE_VERIFICATION.md |
 | Student-deferred reflection, Canvas details and submission | SUBMISSION_TODO.md - TBD by user instruction |
 

@@ -14,3 +14,5 @@ as the work is completed; no retrospective milestone history is manufactured.
 | 7 - Packaging | Restart/run all, fresh checkout/environment audit, report rendering and remote contents | Passed - clean environment and separate-checkout full run; all 10 code cells, repeated metrics, artifact reload and four-page report checks passed |
 
 Student-deferred items are tracked separately in `SUBMISSION_TODO.md`.
+
+Final GitHub verification: results/remote_verification.json records a fresh clone of artifact commit 362a63bf6b85a63de8a6488c9db0e0394ba1ced1. Notebook outputs, dependencies, hashes, visually checked PDF bytes and inference on all 3,000 test rows per model passed with checkout line-ending conversion disabled.

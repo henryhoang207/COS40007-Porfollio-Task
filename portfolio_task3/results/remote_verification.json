@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "source": "fresh GitHub clone",
+  "artifact_commit": "362a63bf6b85a63de8a6488c9db0e0394ba1ced1",
+  "checkout_line_ending_conversion_disabled": true,
+  "required_remote_files_verified": [
+    "Portfolio_Assessment_3_HoangHuuHoan.ipynb",
+    "README.md",
+    "requirements-lock.txt",
+    "run_notebook.py",
+    "verify_artifacts.py",
+    "data/Data_for_UCI_named.csv",
+    "models/random_forest.pkl",
+    "models/mlp_classifier.pkl",
+    "models/ann_batch32.h5",
+    "models/ann_batch64.h5",
+    "models/standard_scaler.pkl",
+    "models/model_metadata.json",
+    "results/master_results.csv",
+    "results/test_predictions.csv",
+    "results/frozen_configurations.json",
+    "report/Portfolio_Assessment_3_Report.pdf",
+    "SUBMISSION_TODO.md"
+  ],
+  "remote_notebook_and_outputs_identical": true,
+  "dependency_pins_identical": true,
+  "dataset_and_hashed_json_bytes_identical_to_git_blobs": true,
+  "model_manifest_hashes_verified": true,
+  "report_matches_visually_inspected_pdf_sha256": "d7c99e231b7f3d980da93febd6485317eefa8f1e9631fddfdd3ecf9182053db0",
+  "remote_fresh_process_model_reload_passed": true,
+  "all_3000_raw_test_rows_verified_per_model": true
+}

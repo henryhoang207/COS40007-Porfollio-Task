@@ -63,3 +63,5 @@ statement has been written on the student's behalf.
 - Packaging audit: found Git line-ending conversion changed the bytes of three SHA-256-checked files. Added targeted .gitattributes rules and verified staged blobs match the original dataset, frozen settings and model metadata byte for byte. Model settings and numeric data values were unchanged.
 
 - Final staged-file check identified that the ASCII-encoded PDF was being treated as text. Declared PDF, model, history and figure exports as binary in .gitattributes so their byte offsets and hashes are preserved. No exported artifact bytes were edited.
+
+- Final verification: a clean-environment full run executed all ten code cells without error outputs and reproduced CV, ANN development, final metrics and predictions. A fresh GitHub clone also passed hashes, PDF-byte comparison and independent inference checks on all 3,000 test rows for every exported model.
