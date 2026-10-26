@@ -1,0 +1,150 @@
+{
+  "ordered_features": [
+    "tau1",
+    "tau2",
+    "tau3",
+    "tau4",
+    "p2",
+    "p3",
+    "p4",
+    "g1",
+    "g2",
+    "g3",
+    "g4"
+  ],
+  "class_map": {
+    "stable": 0,
+    "unstable": 1
+  },
+  "class_probability_order": [
+    "stable",
+    "unstable"
+  ],
+  "decision_rule": "argmax of class probabilities; ties resolve to first class",
+  "data_sha256": "7afc3154fed9cd65258b3403b60381fe6b0d832bf817a1ea4866395d05a84a83",
+  "frozen_configuration_sha256": "cf77f2103834c19805025bb317928b48df1beda54b4024c3ab42a1d5b5005bfe",
+  "seeds": {
+    "split_and_model": 42,
+    "internal_validation": 43
+  },
+  "versions": {
+    "tensorflow": "2.20.0",
+    "keras": "3.15.1",
+    "scikit-learn": "1.7.2",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.7",
+    "seaborn": "0.13.2",
+    "h5py": "3.15.1",
+    "nbformat": "5.10.4",
+    "nbclient": "0.10.2",
+    "python": "3.12.10"
+  },
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu_threads": 2,
+  "common_scaler": "standard_scaler.pkl",
+  "common_scaler_fit_rows": 7000,
+  "traditional_serialization": "joblib compressed pickle; load with joblib.load",
+  "ann_serialization": "whole-model legacy HDF5; load with keras.models.load_model",
+  "model_files": {
+    "RF": "random_forest.pkl",
+    "MLP": "mlp_classifier.pkl",
+    "ANN-1": "ann_batch32.h5",
+    "ANN-2": "ann_batch64.h5"
+  },
+  "ann_saved_models": "fresh final refits, not development trial weights",
+  "ann_core_settings": {
+    "ANN-1": {
+      "batch_size": 32,
+      "epochs": 39
+    },
+    "ANN-2": {
+      "batch_size": 64,
+      "epochs": 46
+    }
+  },
+  "ann_architecture": [
+    {
+      "dense": 64,
+      "activation": "relu"
+    },
+    {
+      "dropout": 0.2
+    },
+    {
+      "dense": 32,
+      "activation": "relu"
+    },
+    {
+      "dropout": 0.2
+    },
+    {
+      "dense": 16,
+      "activation": "relu"
+    },
+    {
+      "dense": 2,
+      "activation": "softmax"
+    }
+  ],
+  "ann_optimizer": "Adam",
+  "ann_initial_learning_rate": 0.001,
+  "ann_final_callbacks": [],
+  "traditional_settings": {
+    "RF": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": "sqrt",
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 300,
+      "n_jobs": 2,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "MLP": {
+      "activation": "relu",
+      "alpha": 0.0001,
+      "batch_size": "auto",
+      "beta_1": 0.9,
+      "beta_2": 0.999,
+      "early_stopping": false,
+      "epsilon": 1e-08,
+      "hidden_layer_sizes": [
+        64,
+        32,
+        16
+      ],
+      "learning_rate": "constant",
+      "learning_rate_init": 0.001,
+      "max_fun": 15000,
+      "max_iter": 500,
+      "momentum": 0.9,
+      "n_iter_no_change": 10,
+      "nesterovs_momentum": true,
+      "power_t": 0.5,
+      "random_state": 42,
+      "shuffle": true,
+      "solver": "adam",
+      "tol": 0.0001,
+      "validation_fraction": 0.1,
+      "verbose": false,
+      "warm_start": false
+    }
+  },
+  "probability_reload_tolerance": {
+    "atol": 1e-06,
+    "rtol": 1e-06
+  },
+  "test_is_previously_inspected_benchmark": true
+}

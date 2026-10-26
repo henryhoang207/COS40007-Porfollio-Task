@@ -10,7 +10,7 @@ as the work is completed; no retrospective milestone history is manufactured.
 | 3 - Traditional | Five folds per classifier, fold-local scaling, convergence diagnostics | Passed - Ten fold fits, fold-local scaling and convergence diagnostics passed |
 | 4 - ANN development | Pilot, batches 16/32/64, callbacks, histories and best epochs | Passed - 10-epoch pilot and fresh batch 16/32/64 trials, callback checks and histories passed |
 | 5 - Final evaluation | Frozen configurations, common scaler, four final refits and metrics | Passed - Frozen recipe, common scaler, four final refits and test metric agreement passed |
-| 6 - Persistence | Whole models, scaler, metadata and fresh-process reload agreement | Not started |
+| 6 - Persistence | Whole models, scaler, metadata and fresh-process reload agreement | Passed - Whole-model exports and all 3000 raw-row predictions verified in a fresh process |
 | 7 - Packaging | Restart/run all, fresh checkout/environment audit, report rendering and remote contents | Not started |
 
 Student-deferred items are tracked separately in `SUBMISSION_TODO.md`.

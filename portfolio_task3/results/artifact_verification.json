@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "fresh_process": true,
+  "atol": 1e-06,
+  "rtol": 1e-06,
+  "data_hash_verified": true,
+  "split_reconstruction_verified": true,
+  "common_scaler_development_only_verified": true,
+  "cv_summary_recomputed": true,
+  "whole_model_hdf5_verified": true,
+  "metadata_feature_order_verified": true,
+  "models": {
+    "RF": {
+      "class_predictions_identical": true,
+      "maximum_probability_difference": 1.1102230246251565e-16,
+      "metrics_recomputed_and_equal": true,
+      "raw_rows_checked": 3000
+    },
+    "MLP": {
+      "class_predictions_identical": true,
+      "maximum_probability_difference": 1.1102230246251565e-16,
+      "metrics_recomputed_and_equal": true,
+      "raw_rows_checked": 3000
+    },
+    "ANN-1": {
+      "class_predictions_identical": true,
+      "maximum_probability_difference": 2.9779052779232984e-08,
+      "metrics_recomputed_and_equal": true,
+      "raw_rows_checked": 3000
+    },
+    "ANN-2": {
+      "class_predictions_identical": true,
+      "maximum_probability_difference": 2.9795837352963872e-08,
+      "metrics_recomputed_and_equal": true,
+      "raw_rows_checked": 3000
+    }
+  }
+}
