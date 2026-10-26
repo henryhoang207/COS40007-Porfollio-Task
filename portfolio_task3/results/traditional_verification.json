@@ -1,0 +1,7 @@
+{
+  "five_folds_each": true,
+  "fold_local_scaling_verified": true,
+  "convergence_warning_count": 0,
+  "mlp_max_iter": 500,
+  "best_traditional_by_cv_accuracy": "MLP"
+}
