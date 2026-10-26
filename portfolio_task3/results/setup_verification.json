@@ -1,0 +1,20 @@
+{
+  "versions": {
+    "tensorflow": "2.20.0",
+    "keras": "3.15.1",
+    "scikit-learn": "1.7.2",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.7",
+    "seaborn": "0.13.2",
+    "h5py": "3.15.1",
+    "nbformat": "5.10.4",
+    "nbclient": "0.10.2",
+    "python": "3.12.10"
+  },
+  "whole_model_hdf5_roundtrip": true,
+  "ann_parameter_count": 3410,
+  "cpu_training": true,
+  "tensorflow_deterministic_ops": true,
+  "oneDNN_enabled": false
+}

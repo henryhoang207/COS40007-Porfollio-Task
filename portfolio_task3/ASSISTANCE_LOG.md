@@ -1,0 +1,56 @@
+# GenAI assistance record
+
+## 1. GenAI Tools Used
+
+OpenAI Codex desktop assistant (GPT-6-based runtime; exact model version not
+exposed). Used to inspect prior notebooks and the plan, prepare the Python
+environment, generate this working notebook and supporting verification code,
+run experiments, debug failures, interpret measured outputs, prepare the report,
+and perform incremental Git commits and pushes.
+
+This describes code generation and execution, beyond debugging-only assistance.
+The work is not represented as independently written or personally verified by
+the student. The source brief's narrower GenAI allowance is recorded in
+`SUBMISSION_TODO.md` for student/instructor resolution.
+
+## 2. Specific Tasks & Prompts
+
+Task 1 - Plan execution. Exact user prompt:
+
+> "C:\Users\hoanh\OneDrive\Tài liệu\CS material\COS40007\Portfollio_Task3\Portfolio_Task3_End_to_End_Plan.md"
+>
+> Follow this plan end to end, with verification between each phase and push to github.
+
+Task 2 - Defer student-only information. Exact user reply:
+
+> Record this part in .md files as TBD
+
+That reply addressed a request for the current Canvas deadline, accepted
+submission files and the student's own learning reflection.
+
+Earlier portfolios and the supplied plan predate this execution request. Their
+assistance histories are not reconstructed or attributed to this session.
+
+## 3. Code Attribution only for debugging and helping find errors
+
+The mandatory template heading is retained verbatim. Actual assistance was broader:
+
+- Notebook setup, data audit, splits, traditional CV, ANN development, final refits,
+  evaluation, export and reload: AI-generated implementation and execution.
+- Notebook interpretations and report: AI-drafted using actual experiment outputs.
+- Dependency setup: diagnosed Windows console Unicode logging errors; subsequent
+  verification uses UTF-8 environment settings.
+- Verification and packaging helpers: AI-generated and executed.
+
+Additional actual debugging findings are appended when they occur.
+
+## 4. Learning Reflection
+
+Personal responses are intentionally deferred by the user. The three required
+questions and their TBD entries are in `SUBMISSION_TODO.md`. No personal learning
+statement has been written on the student's behalf.
+
+- Notebook pre-execution review: corrected nested-string quoting and a Windows-path escape in the report cell; compiled all ten analysis cells successfully.
+- Environment setup: moved the active clean environment outside OneDrive after slow installation; no model results were produced before setup verification.
+
+- Execution harness: an orchestration timeout interrupted the initial setup kernel before any model training; setup was restarted. Long-running jobs are now launched asynchronously with durable logs.
