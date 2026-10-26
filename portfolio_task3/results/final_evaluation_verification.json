@@ -1,0 +1,11 @@
+{
+  "frozen_configuration_sha256": "cf77f2103834c19805025bb317928b48df1beda54b4024c3ab42a1d5b5005bfe",
+  "core_model_count": 4,
+  "test_rows": 3000,
+  "shared_training_rows": 7000,
+  "common_scaler_fit_rows": 7000,
+  "ann_probability_sums_verified": true,
+  "ann_keras_metrics_agree_with_predictions": true,
+  "best_observed_test_accuracy_model": "ANN-2",
+  "test_based_configuration_revision": false
+}

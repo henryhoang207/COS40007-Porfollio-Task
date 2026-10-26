@@ -1,0 +1,5 @@
+model,fit_seconds,iterations_or_epochs,batch_size
+RF,13.503707500000019,,not applicable
+MLP,28.99672229999851,128.0,auto
+ANN-1,62.109665199997835,39.0,32
+ANN-2,38.937315499999386,46.0,64

@@ -1,0 +1,123 @@
+{
+  "features": [
+    "tau1",
+    "tau2",
+    "tau3",
+    "tau4",
+    "p2",
+    "p3",
+    "p4",
+    "g1",
+    "g2",
+    "g3",
+    "g4"
+  ],
+  "class_map": {
+    "stable": 0,
+    "unstable": 1
+  },
+  "data_sha256": "7afc3154fed9cd65258b3403b60381fe6b0d832bf817a1ea4866395d05a84a83",
+  "seed": 42,
+  "validation_seed": 43,
+  "test_seed": 42,
+  "traditional": {
+    "RF": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": "sqrt",
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 300,
+      "n_jobs": 2,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "MLP": {
+      "activation": "relu",
+      "alpha": 0.0001,
+      "batch_size": "auto",
+      "beta_1": 0.9,
+      "beta_2": 0.999,
+      "early_stopping": false,
+      "epsilon": 1e-08,
+      "hidden_layer_sizes": [
+        64,
+        32,
+        16
+      ],
+      "learning_rate": "constant",
+      "learning_rate_init": 0.001,
+      "max_fun": 15000,
+      "max_iter": 500,
+      "momentum": 0.9,
+      "n_iter_no_change": 10,
+      "nesterovs_momentum": true,
+      "power_t": 0.5,
+      "random_state": 42,
+      "shuffle": true,
+      "solver": "adam",
+      "tol": 0.0001,
+      "validation_fraction": 0.1,
+      "verbose": false,
+      "warm_start": false
+    }
+  },
+  "best_traditional_by_development_cv": "MLP",
+  "ann": {
+    "ANN-1": {
+      "batch_size": 32,
+      "epochs": 39
+    },
+    "ANN-2": {
+      "batch_size": 64,
+      "epochs": 46
+    }
+  },
+  "ann_architecture": [
+    {
+      "dense": 64,
+      "activation": "relu"
+    },
+    {
+      "dropout": 0.2
+    },
+    {
+      "dense": 32,
+      "activation": "relu"
+    },
+    {
+      "dropout": 0.2
+    },
+    {
+      "dense": 16,
+      "activation": "relu"
+    },
+    {
+      "dense": 2,
+      "activation": "softmax"
+    }
+  ],
+  "ann_optimizer": "Adam",
+  "ann_initial_learning_rate": 0.001,
+  "ann_loss": "sparse_categorical_crossentropy",
+  "decision_rule": "argmax of class probabilities",
+  "final_refit": {
+    "rows": 7000,
+    "common_scaler_fit_on": "development only",
+    "fresh_initialization": true,
+    "ann_callbacks": [],
+    "ann_learning_rate": "constant 0.001"
+  },
+  "frozen_before_task3_test_predictions": true,
+  "test_is_previously_inspected_benchmark": true
+}
