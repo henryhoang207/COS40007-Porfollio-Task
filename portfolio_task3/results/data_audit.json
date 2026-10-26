@@ -1,0 +1,31 @@
+{
+  "shape": [
+    10000,
+    14
+  ],
+  "sha256": "7afc3154fed9cd65258b3403b60381fe6b0d832bf817a1ea4866395d05a84a83",
+  "missing_cells": 0,
+  "duplicate_rows": 0,
+  "duplicate_predictors": 0,
+  "finite_numeric_values": true,
+  "label_sign_agrees": true,
+  "power_balance_agrees": true,
+  "features": [
+    "tau1",
+    "tau2",
+    "tau3",
+    "tau4",
+    "p2",
+    "p3",
+    "p4",
+    "g1",
+    "g2",
+    "g3",
+    "g4"
+  ],
+  "class_map": {
+    "stable": 0,
+    "unstable": 1
+  },
+  "rows_retained": 10000
+}

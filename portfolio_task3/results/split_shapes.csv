@@ -1,0 +1,5 @@
+split,X_shape,y_shape,stable,unstable
+development,"(7000, 11)","(7000,)",2534,4466
+ANN fit,"(5600, 11)","(5600,)",2027,3573
+ANN validation,"(1400, 11)","(1400,)",507,893
+test,"(3000, 11)","(3000,)",1086,1914

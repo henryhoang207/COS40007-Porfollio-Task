@@ -1,0 +1,11 @@
+{
+  "development_rows": 7000,
+  "test_rows": 3000,
+  "ann_fit_rows": 5600,
+  "ann_validation_rows": 1400,
+  "complete_disjoint_roles": true,
+  "trial_scaler_fit_rows": 5600,
+  "split_seed": 42,
+  "validation_seed": 43,
+  "previously_inspected_benchmark": true
+}

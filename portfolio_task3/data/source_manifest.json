@@ -1,0 +1,8 @@
+{
+  "sha256": "7afc3154fed9cd65258b3403b60381fe6b0d832bf817a1ea4866395d05a84a83",
+  "copied_unchanged_from": "Portfolio 2 data/Data_for_UCI_named.csv",
+  "source": "https://archive.ics.uci.edu/dataset/471/electrical+grid+stability+simulated+data",
+  "license": "CC BY 4.0",
+  "author": "Vadim Arzamasov",
+  "year": 2018
+}
