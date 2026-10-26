@@ -1,0 +1,20 @@
+{
+  "pilot_epochs": 10,
+  "trial_batches": [
+    16,
+    32,
+    64
+  ],
+  "maximum_epochs": 50,
+  "early_stopping_patience": 10,
+  "restored_best_weights_checked": true,
+  "reduce_lr_patience": 5,
+  "reduce_lr_factor": 0.5,
+  "initial_lr": 0.001,
+  "selected_core_epochs": {
+    "32": 39,
+    "64": 46
+  },
+  "test_used_for_selection": false,
+  "histories_complete_and_finite": true
+}
