@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "exact_byte_preservation": true,
+  "files": [
+    {
+      "path": "portfolio_task3/data/Data_for_UCI_named.csv",
+      "sha256": "7afc3154fed9cd65258b3403b60381fe6b0d832bf817a1ea4866395d05a84a83",
+      "staged_bytes_equal_working_file": true
+    },
+    {
+      "path": "portfolio_task3/results/frozen_configurations.json",
+      "sha256": "cf77f2103834c19805025bb317928b48df1beda54b4024c3ab42a1d5b5005bfe",
+      "staged_bytes_equal_working_file": true
+    },
+    {
+      "path": "portfolio_task3/models/model_metadata.json",
+      "sha256": "ae4f3f46c792dbd961733d420436d6233733924dbce2fc1bdbff05545efe0dfd",
+      "staged_bytes_equal_working_file": true
+    }
+  ]
+}

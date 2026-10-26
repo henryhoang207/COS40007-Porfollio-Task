@@ -7,5 +7,5 @@
   "validation_accuracy_at_best_loss": 0.9150000214576721,
   "initial_learning_rate": 0.001,
   "minimum_learning_rate": 0.0010000000474974513,
-  "fit_seconds": 29.094400699999824
+  "fit_seconds": 14.816331499998341
 }

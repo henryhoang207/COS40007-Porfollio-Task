@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "clean_environment": true,
+  "separate_checkout": true,
+  "checkout_base_commit": "3c2f8bbb7ef94a3bf8fe6a682a26b0cc03d4b5c9",
+  "final_candidate_notebook_copied_before_execution": true,
+  "fresh_kernel": true,
+  "all_10_code_cells_executed": true,
+  "error_outputs": 0,
+  "identical_notebook_source": true,
+  "notebook_source_sha256": "047a9ae9b995b63341c47522e603116e0e5aada9e40232eaf03496c150634115",
+  "cv_summaries_identical": true,
+  "ann_development_metrics_and_epochs_identical": true,
+  "frozen_configuration_bytes_identical": true,
+  "split_indices_identical": true,
+  "all_3000_class_predictions_identical": true,
+  "final_metrics_reproduced": true,
+  "maximum_probability_differences": {
+    "RF": 0.0,
+    "MLP": 0.0,
+    "ANN-1": 0.0,
+    "ANN-2": 0.0
+  },
+  "fresh_process_artifact_reload_passed": true,
+  "execution_seconds": 1081.28
+}

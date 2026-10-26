@@ -54,3 +54,12 @@ statement has been written on the student's behalf.
 - Environment setup: moved the active clean environment outside OneDrive after slow installation; no model results were produced before setup verification.
 
 - Execution harness: an orchestration timeout interrupted the initial setup kernel before any model training; setup was restarted. Long-running jobs are now launched asynchronously with durable logs.
+
+- Phase coordination: propagated child-process UTF-8 settings after a Windows path could not be printed. The notebook had been saved successfully; data checks then ran once and passed.
+- Report verification: rendered and visually inspected all four pages, including tables, curves, confusion matrices, headings and footers; verified clickable repository URI annotations.
+
+- Independent verification startup: restarted during initial imports with bytecode cache writes disabled; no model settings or notebook analysis code changed.
+
+- Packaging audit: found Git line-ending conversion changed the bytes of three SHA-256-checked files. Added targeted .gitattributes rules and verified staged blobs match the original dataset, frozen settings and model metadata byte for byte. Model settings and numeric data values were unchanged.
+
+- Final staged-file check identified that the ASCII-encoded PDF was being treated as text. Declared PDF, model, history and figure exports as binary in .gitattributes so their byte offsets and hashes are preserved. No exported artifact bytes were edited.

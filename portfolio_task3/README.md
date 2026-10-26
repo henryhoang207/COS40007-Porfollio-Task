@@ -55,3 +55,22 @@ Canvas deadline and accepted submission fields are recorded as TBD in
 `SUBMISSION_TODO.md`. No Canvas submission is claimed.
 
 Dataset attribution and licence: [data/README.md](data/README.md).
+
+## Measured final results
+
+| Configuration | Test accuracy | Weighted F1 | Balanced accuracy | Unstable called stable |
+|---|---:|---:|---:|---:|
+| Random Forest | 92.73% | 0.9268 | 91.52% | 78 |
+| MLP | 96.47% | 0.9646 | 96.12% | 50 |
+| ANN-1, batch 32 | 95.57% | 0.9552 | 94.33% | 23 |
+| ANN-2, batch 64 | 96.57% | 0.9655 | 95.80% | 27 |
+
+ANN-2 leads accuracy by only three test cases over MLP. MLP has the highest
+balanced accuracy, while ANN-1 makes the fewest unstable-as-stable errors.
+These are observed results on the previously inspected benchmark, not evidence
+of production readiness. No models were revised after this comparison.
+
+The short report is `report/Portfolio_Assessment_3_Report.pdf`. The master table,
+per-class reports, predictions, split indices and independent reload audit are
+in `results/`; trained models and metadata are in `models/`. The `.pkl` pipeline
+and scaler files use joblib compressed pickle format; use `joblib.load`.

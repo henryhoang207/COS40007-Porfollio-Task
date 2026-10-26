@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "page_count": 4,
+  "rendered_pages_inspected": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "layout_defects_observed": false,
+  "headings_tables_figures_and_footers_checked": true,
+  "clickable_repository_links_verified": true,
+  "report_sha256": "d7c99e231b7f3d980da93febd6485317eefa8f1e9631fddfdd3ecf9182053db0"
+}
