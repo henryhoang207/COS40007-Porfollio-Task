@@ -26,8 +26,7 @@ Set-Location portfolio_task3
 Open the notebook with a Jupyter-compatible editor, choose that kernel, then
 Restart Kernel and Run All. Run from `portfolio_task3/`; all paths are relative.
 The notebook regenerates results, figures and trained model artifacts. It requires
-no internet access after dependencies are installed. Run `python run_notebook.py` to execute every cell in a fresh kernel, or
-`python verify_artifacts.py` for an independent inference-only audit.
+no internet access after dependencies are installed. 
 
 `requirements.txt` lists direct dependencies. `requirements-lock.txt` records the
 exact working package set. Training uses deterministic TensorFlow operations,
@@ -42,7 +41,7 @@ stratified development CV with fold-local scaling. ANN trials use a fixed 20%
 development validation reserve with a fit-only scaler. Configuration and epoch
 choices are frozen before final test inference. All final models train on the
 same common-scaled 7,000 rows. Trial curves and final-refit results are labelled
-separately. See the notebook and `IMPLEMENTATION_PLAN.md` for the full protocol.
+separately. 
 
 Dataset attribution and licence: [data/README.md](data/README.md).
 
@@ -65,7 +64,7 @@ per-class reports, predictions, split indices and independent reload audit are
 in `results/`; trained models and metadata are in `models/`. The `.pkl` pipeline
 and scaler files use joblib compressed pickle format; use `joblib.load`.
 
-## Explanation document and rubric audit
+## Explanation document 
 
 The Word document is
 [`report/Portfolio_Assessment_3_Explanations_and_Rubric_Review.docx`](report/Portfolio_Assessment_3_Explanations_and_Rubric_Review.docx).
@@ -73,13 +72,4 @@ It gives a brief Part A, a detailed Part B, a four-model comparison and the
 technical reflection answers. Six original result figures are embedded directly,
 and 12 native Word tables include the dataset audit, split shapes, traditional
 comparison, ANN model summary, pilot/trial results, classification reports and
-master comparison. These tables are editable; the figures use the saved PNGs
-without image generation. Only three manual evidence placeholders remain:
-S04 callback code, S11 saved files and reload, and S15 GitHub history. Each has
-exact capture instructions. A cover and Acknowledgement of Country are included;
-the actual submission date remains TBD.
-
-The supplemental `report/supporting_figures/classification_probability_scatter.png`
-uses the saved fixed test predictions. It is a classification diagnostic with
-cosmetic horizontal jitter, not a regression plot or a calibration test. No
-models or frozen recipes were changed to produce this documentation update.
+master comparison. 
