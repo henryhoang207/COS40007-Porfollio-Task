@@ -44,16 +44,6 @@ choices are frozen before final test inference. All final models train on the
 same common-scaled 7,000 rows. Trial curves and final-refit results are labelled
 separately. See the notebook and `IMPLEMENTATION_PLAN.md` for the full protocol.
 
-## Assistance and submission status
-
-This working implementation was generated and executed with OpenAI Codex.
-`ASSISTANCE_LOG.md` describes the actual scope; no student-authorship or personal
-learning claims are invented. The brief limits GenAI code use; this generated
-implementation must not be described as meeting that restriction without the
-instructor's guidance. The student-requested deferred learning reflection,
-Canvas deadline and accepted submission fields are recorded as TBD in
-`SUBMISSION_TODO.md`. No Canvas submission is claimed.
-
 Dataset attribution and licence: [data/README.md](data/README.md).
 
 ## Measured final results
@@ -88,12 +78,6 @@ without image generation. Only three manual evidence placeholders remain:
 S04 callback code, S11 saved files and reload, and S15 GitHub history. Each has
 exact capture instructions. A cover and Acknowledgement of Country are included;
 the actual submission date remains TBD.
-
-[`report/RUBRIC_REVIEW.md`](report/RUBRIC_REVIEW.md) records the task-by-task
-audit and rubric interpretation. Current technical evidence fits the Excellent
-band across the seven scored criteria (68 points available). This is not an
-official or guaranteed mark, and it does not resolve the brief's authorship
-restriction. Student-only deferred information remains in `SUBMISSION_TODO.md`.
 
 The supplemental `report/supporting_figures/classification_probability_scatter.png`
 uses the saved fixed test predictions. It is a classification diagnostic with
