@@ -4,10 +4,10 @@
   "review_timezone": "Asia/Bangkok",
   "implementation_commit_reviewed": "4768cce29135adac18a12ce192535460c7a60c83",
   "document": "report/Portfolio_Assessment_3_Explanations_and_Rubric_Review.docx",
-  "document_sha256": "dd90cce0d12a9fe7f087e628da64ec8cf8305cea9946630d7e9dea97bfb2ff2b",
-  "page_count": 13,
-  "screenshot_placeholders": 15,
-  "tables": 11,
+  "document_sha256": "bc5e8a0486b1f38a91ed053d9f23f5d3f9433652f7fefbef0beb78fc7ed1d463",
+  "page_count": 17,
+  "screenshot_placeholders": 3,
+  "tables": 12,
   "rendered_pages_visually_inspected": [
     1,
     2,
@@ -21,11 +21,13 @@
     10,
     11,
     12,
-    13
+    13,
+    14,
+    15,
+    16,
+    17
   ],
   "render_method": "Canonical renderer attempted; LibreOffice unavailable. Hidden Microsoft Word COM PDF export and bundled pypdfium2 rasterisation at 150 dpi.",
-  "final_render_page_one_rechecked_after_title_border_removal": true,
-  "final_render_pages_two_to_thirteen_pixel_identical_to_inspected_pages": true,
   "layout_defects_observed": false,
   "repository_hyperlinks_verified": true,
   "screenshot_source_files_and_notebook_cell_mapping_verified": true,
@@ -40,7 +42,7 @@
   "raw_test_rows_verified_per_model": 3000,
   "notebook_model_settings_and_measured_results_unchanged": true,
   "pending_by_request": [
-    "screenshot insertion",
+    "manual evidence screenshots S04 S11 S15",
     "actual submission date",
     "current Canvas deadline and accepted files",
     "student personal GenAI learning reflection"
@@ -48,16 +50,94 @@
   "authorship_restriction_unresolved": true,
   "canvas_submission_claimed": false,
   "remote_publication": {
-    "status": "verified",
-    "source": "fresh filtered GitHub clone and remote main ref",
-    "documentation_commit": "7bf2aad4d6edf7b5f8538752c3fd3fa447daf122",
-    "verified_files_sha256": {
-      "portfolio_task3/report/Portfolio_Assessment_3_Explanations_and_Rubric_Review.docx": "dd90cce0d12a9fe7f087e628da64ec8cf8305cea9946630d7e9dea97bfb2ff2b",
-      "portfolio_task3/report/supporting_figures/classification_probability_scatter.png": "0c9b8ae0891cb65d6fe1ef79ba7692199a99a801e4f68b08983b9fe75b6f5ae2",
-      "portfolio_task3/report/RUBRIC_REVIEW.md": "cafd293c4b62df12e114979139078420fa1c18c76ced5ea95eb148b324ae3c44",
-      "portfolio_task3/results/word_report_verification.json": "091690661def0738ba2102ec88766d79f4197e6f7d48bb00f06873acfc34e906"
+    "status": "pending verification after figure-insertion commit"
+  },
+  "previous_report_versions": [
+    {
+      "document_sha256": "dd90cce0d12a9fe7f087e628da64ec8cf8305cea9946630d7e9dea97bfb2ff2b",
+      "page_count": 13,
+      "screenshot_placeholders": 15,
+      "tables": 11,
+      "rendered_pages_visually_inspected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "remote_publication": {
+        "status": "verified",
+        "source": "fresh filtered GitHub clone and remote main ref",
+        "documentation_commit": "7bf2aad4d6edf7b5f8538752c3fd3fa447daf122",
+        "verified_files_sha256": {
+          "portfolio_task3/report/Portfolio_Assessment_3_Explanations_and_Rubric_Review.docx": "dd90cce0d12a9fe7f087e628da64ec8cf8305cea9946630d7e9dea97bfb2ff2b",
+          "portfolio_task3/report/supporting_figures/classification_probability_scatter.png": "0c9b8ae0891cb65d6fe1ef79ba7692199a99a801e4f68b08983b9fe75b6f5ae2",
+          "portfolio_task3/report/RUBRIC_REVIEW.md": "cafd293c4b62df12e114979139078420fa1c18c76ced5ea95eb148b324ae3c44",
+          "portfolio_task3/results/word_report_verification.json": "091690661def0738ba2102ec88766d79f4197e6f7d48bb00f06873acfc34e906"
+        },
+        "word_and_png_exact_working_file_bytes_preserved": true,
+        "scope": "Documentation publication; the earlier model remote-clone audit is recorded separately in remote_verification.json."
+      }
+    }
+  ],
+  "remaining_manual_slots": [
+    "S04",
+    "S11",
+    "S15"
+  ],
+  "embedded_figures": 6,
+  "embedded_original_png_bytes_verified": true,
+  "embedded_figure_sources_and_sha256": [
+    {
+      "former_slot": "S06",
+      "source": "figures/ann_core_development_loss.png",
+      "sha256": "f54d9f46db566461f8aa13fc1043f2cbe93b1f68af3c7f883a92604ca4116591",
+      "caption": "Figure 1. ANN development loss. Dashed markers show the selected epochs 39 and 46. These are trial histories, not the final 7,000-row refit histories."
     },
-    "word_and_png_exact_working_file_bytes_preserved": true,
-    "scope": "Documentation publication; the earlier model remote-clone audit is recorded separately in remote_verification.json."
-  }
+    {
+      "former_slot": "S07",
+      "source": "figures/ann_core_development_accuracy.png",
+      "sha256": "f7194f9c5d1463594fafa18abd7430b55812788832c871ac6336a98ba195720f",
+      "caption": "Figure 2. ANN development accuracy for batches 32 and 64 using the same fit and validation partitions."
+    },
+    {
+      "former_slot": "S08",
+      "source": "figures/ann_development_learning_rate.png",
+      "sha256": "800999493cb45a29fa0f556dcc44fdc4de3841b5cc82bd2a51da412d019a7a74",
+      "caption": "Figure 3. Development learning rates for batches 16, 32 and 64. Plateau callbacks halve the learning rate."
+    },
+    {
+      "former_slot": "S10",
+      "source": "figures/final_confusion_matrices.png",
+      "sha256": "2e7898d4366c8844c248b6886e50407ecff371d45dfbf1cd1672ad10b6d1cc30",
+      "caption": "Figure 4. Final confusion matrices on the same 3,000 test cases. Rows are true labels and columns are predicted labels."
+    },
+    {
+      "former_slot": "S13",
+      "source": "figures/final_accuracy_comparison.png",
+      "sha256": "7d15d712ca4bee7c0e573b8add4acb77a41d6f8a4e89fbb3054636ff25498655",
+      "caption": "Figure 5. Final test accuracy and the 63.8% majority baseline. ANN-2 exceeds MLP by only three cases, or 0.10 percentage points."
+    },
+    {
+      "former_slot": "S14",
+      "source": "report/supporting_figures/classification_probability_scatter.png",
+      "sha256": "0c9b8ae0891cb65d6fe1ef79ba7692199a99a801e4f68b08983b9fe75b6f5ae2",
+      "caption": "Figure 6. Classification probability scatter for all 3,000 test cases per model. Horizontal jitter affects display only; this is not a calibration test."
+    }
+  ],
+  "native_editable_word_tables_verified": true,
+  "ann_model_summary_parameters": 3410,
+  "ann_model_summary_trainable_parameters": 3410,
+  "ann_model_summary_non_trainable_parameters": 0,
+  "edits_based_on_current_local_document": true,
+  "current_local_input_sha256": "e779c46536640224504742d0ac89e3b6a210ba91c0fd8f6808c886704f30690b",
+  "model_reload_audit_basis": "Prior independent artifact audit retained; no model files or results changed in the figure-insertion update."
 }

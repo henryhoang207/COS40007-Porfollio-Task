@@ -80,10 +80,14 @@ and scaler files use joblib compressed pickle format; use `joblib.load`.
 The Word document is
 [`report/Portfolio_Assessment_3_Explanations_and_Rubric_Review.docx`](report/Portfolio_Assessment_3_Explanations_and_Rubric_Review.docx).
 It gives a brief Part A, a detailed Part B, a four-model comparison and the
-technical reflection answers. Its 15 screenshot placeholders specify exactly
-what to capture and where. The user requested placeholders rather than captured
-screenshots. A cover and Acknowledgement of Country are included; the actual
-submission date remains TBD.
+technical reflection answers. Six original result figures are embedded directly,
+and 12 native Word tables include the dataset audit, split shapes, traditional
+comparison, ANN model summary, pilot/trial results, classification reports and
+master comparison. These tables are editable; the figures use the saved PNGs
+without image generation. Only three manual evidence placeholders remain:
+S04 callback code, S11 saved files and reload, and S15 GitHub history. Each has
+exact capture instructions. A cover and Acknowledgement of Country are included;
+the actual submission date remains TBD.
 
 [`report/RUBRIC_REVIEW.md`](report/RUBRIC_REVIEW.md) records the task-by-task
 audit and rubric interpretation. Current technical evidence fits the Excellent

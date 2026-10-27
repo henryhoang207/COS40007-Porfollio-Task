@@ -1,8 +1,9 @@
 # Portfolio 3 task and rubric review
 
 Reviewed 27 October 2026 against the user's supplied A-D task text and two rubric
-images. The user requested an audit and a Word explanation with screenshot
-placeholders. Assessment documents supply criteria; their generic CNN, LSTM and
+images. The user requested an audit and a Word explanation, then asked to insert
+existing figures and reproduce notebook tables and the model summary as editable
+Word content. Assessment documents supply criteria; their generic CNN, LSTM and
 regression alternatives are not instructions to change this tabular
 classification task.
 
@@ -79,27 +80,39 @@ The extra batch-16 development trial is retained without inventing a test score.
   budget, selected epochs and learning-rate reductions; causal claims are limited.
 - No five-fold ANN CV was performed. Validation results are not labelled CV.
 
-## Screenshot guide
+## Included figures and editable tables
 
-The Word explanation has matching placeholders and complete capture instructions.
-Paths below are relative to `portfolio_task3`.
+The six existing PNGs are embedded in Word without image generation. Editable
+Word tables replace the dataset audit, traditional comparison, model summary,
+pilot/trials, classification reports and master-table screenshot slots. Split
+shapes and class supports are also editable. The document contains 12 native
+tables including its rubric, file inventory and task checklist.
+
+| Former slot | Current Word content |
+|---|---|
+| S01 | Native dataset-audit table and split-shape table, with existing editable feature/class explanations |
+| S02 | Native traditional comparison including both CV metrics, their SDs and test metrics |
+| S03 | Native ANN summary including output shapes, 3410 trainable parameters and zero non-trainable parameters |
+| S05 | Native pilot and all three batch trial rows |
+| S06 | Figure 1: figures/ann_core_development_loss.png |
+| S07 | Figure 2: figures/ann_core_development_accuracy.png |
+| S08 | Figure 3: figures/ann_development_learning_rate.png |
+| S09 | Native ANN reports including per-class, macro-average and weighted-average rows |
+| S10 | Figure 4: figures/final_confusion_matrices.png |
+| S12 | Native four-model master results table |
+| S13 | Figure 5: figures/final_accuracy_comparison.png |
+| S14 | Figure 6: report/supporting_figures/classification_probability_scatter.png |
+
+## Remaining manual evidence
+
+Only the following three placeholders still need capture. Notebook cell numbers
+count Markdown and code cells; In [n] counts executed code cells. All paths are
+relative to `portfolio_task3`.
 
 | Slot | What and where to capture |
 |---|---|
-| S01 | Dataset audit and printed shapes; notebook cells 5/6, In [2]/[3]; two crops if needed |
-| S02 | Traditional CV summaries; cell 8, In [4], plus RF/MLP master rows in cell 14, In [7] |
-| S03 | Full ANN summary and 3410 trainable parameters; cell 10, In [5] |
-| S04 | Callback definitions in train_trial; cell 10 code; patience, restore weights, factor and minimum LR |
-| S05 | Pilot and all three batch trial rows; cell 10, In [5] |
-| S06 | figures/ann_core_development_loss.png; both core batches, axes, legends and best epochs |
-| S07 | figures/ann_core_development_accuracy.png; both core batches and legends |
-| S08 | figures/ann_development_learning_rate.png; all three batches and LR steps |
-| S09 | Both ANN class reports; cell 14, In [7]; precision, recall, F1 and support |
-| S10 | figures/final_confusion_matrices.png; all four model panels and labelled axes |
-| S11 | models folder plus passed reload output in cell 16, In [8]; two crops |
-| S12 | Four-row master table; cell 14, In [7] |
-| S13 | figures/final_accuracy_comparison.png; four bars, values and baseline |
-| S14 | report/supporting_figures/classification_probability_scatter.png; all four panels |
+| S04 | Callback definitions in train_trial; physical cell 10 code, In [5]; monitor, patience, restore weights, factor and minimum LR |
+| S11 | models folder plus passed reload output in physical cell 16, In [8]; two crops |
 | S15 | GitHub portfolio_task3 files and Commits on main; two crops showing identity/history |
 
 The new probability scatter reads only `results/test_predictions.csv`. It plots
@@ -118,6 +131,7 @@ earlier fresh remote-clone check. New document render, content, hash and remote
 publication evidence is recorded in `../results/word_report_verification.json`.
 QA page images and preview PDF stay outside the repository.
 
-The Word document is a requested screenshot draft. Replace S01-S15 and supply
-the submission date; deferred personal/Canvas fields remain TBD. No Canvas
+The Word document contains the requested figures and editable notebook content.
+Replace only the remaining evidence slots S04, S11 and S15 and supply the
+submission date; deferred personal/Canvas fields remain TBD. No Canvas
 submission is claimed.

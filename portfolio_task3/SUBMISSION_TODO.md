@@ -7,7 +7,7 @@ The user instructed: "Record this part in .md files as TBD".
 | Current Canvas deadline and timezone | TBD |
 | Accepted Canvas submission files and fields | TBD |
 | Actual submission date on the report cover | TBD |
-| Insert requested screenshots S01 to S15 into the Word explanation | TBD - capture instructions are at each placeholder |
+| Insert evidence screenshots S04 callback code, S11 saved files/reload, and S15 GitHub history | TBD - capture instructions are at each remaining placeholder |
 | Personal learning reflection: How did GenAI help me learn? | TBD - student to write |
 | Personal learning reflection: What challenges did it create? | TBD - student to write |
 | Personal learning reflection: What specific skills did I develop? | TBD - student to write |
@@ -29,3 +29,9 @@ the actual submission date as TBD. The three technical model reflections in
 Part C are answered; these are separate from the student-only GenAI learning
 reflection deferred above. Do not represent the screenshot draft as a final
 Canvas submission.
+
+The user subsequently requested insertion of the existing figures and editable
+reproductions of notebook tables/model summary. Those are now included directly
+in the Word document; no manual capture is required for the six figures or the
+result tables. The three remaining placeholders above are for interface/code
+evidence only.

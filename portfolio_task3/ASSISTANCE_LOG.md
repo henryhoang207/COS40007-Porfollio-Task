@@ -43,6 +43,18 @@ scatter, and updated the audit and submission notes. The code, model settings,
 notebook and existing measured outputs were not changed. This documentation
 work was AI-drafted; no student learning experience was invented.
 
+Task 4 - Insert figures and editable notebook content. Exact user request:
+
+> Insert existing figures directly into word. Reproduce the notebooks table and model summary as editable word content as needed
+
+Codex edited the current Word document in place, preserving the original report
+and its local formatting in a temporary backup. Six original result PNGs were
+embedded without image generation. Dataset audit, split shapes, traditional CV
+and test metrics, ANN layer summary, pilot/trials and class-level/aggregate
+classification reports were reproduced or expanded as editable Word tables.
+The existing editable master results were retained. Only S04, S11 and S15 remain
+as manual evidence screenshot placeholders. Personal fields remain TBD.
+
 ## 3. Code Attribution only for debugging and helping find errors
 
 The mandatory template heading is retained verbatim. Actual assistance was broader:
@@ -100,3 +112,8 @@ statement has been written on the student's behalf.
   commit and exact published Word and supporting PNG bytes, plus the audit and
   local-verification records. The publication evidence is appended to
   `results/word_report_verification.json` in a separate verification commit.
+- Figure-insertion QA: rendered and visually inspected all 17 pages at 150 dpi.
+  Verified six embedded image byte streams match their original PNGs exactly,
+  all 12 tables are native Word tables, the ANN summary retains 3410 parameters,
+  and only three manual evidence placeholders remain. The existing executable
+  notebook, model artifacts and numerical results were not edited or retrained.
