@@ -91,3 +91,12 @@ statement has been written on the student's behalf.
   runtime. A hidden Word instance exported the document for QA; a cleanup-call
   argument was corrected. The preview PDF and page images are temporary QA
   files outside the repository, not additional submission deliverables.
+- Final Word QA: inspected all 13 rendered pages at 150 dpi. Removed an inherited
+  title rule and rechecked the final first page; pages 2-13 were pixel-identical
+  to the inspected render. Checked all 15 screenshot slots, 11 repeated-header
+  tables, repository links, figure sources and notebook cell references. The
+  original notebook, recipes and measured results remain unchanged.
+- Publication QA: a fresh filtered GitHub clone verified the documentation
+  commit and exact published Word and supporting PNG bytes, plus the audit and
+  local-verification records. The publication evidence is appended to
+  `results/word_report_verification.json` in a separate verification commit.

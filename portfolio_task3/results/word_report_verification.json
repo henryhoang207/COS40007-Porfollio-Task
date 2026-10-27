@@ -48,6 +48,16 @@
   "authorship_restriction_unresolved": true,
   "canvas_submission_claimed": false,
   "remote_publication": {
-    "status": "pending verification after documentation commit"
+    "status": "verified",
+    "source": "fresh filtered GitHub clone and remote main ref",
+    "documentation_commit": "7bf2aad4d6edf7b5f8538752c3fd3fa447daf122",
+    "verified_files_sha256": {
+      "portfolio_task3/report/Portfolio_Assessment_3_Explanations_and_Rubric_Review.docx": "dd90cce0d12a9fe7f087e628da64ec8cf8305cea9946630d7e9dea97bfb2ff2b",
+      "portfolio_task3/report/supporting_figures/classification_probability_scatter.png": "0c9b8ae0891cb65d6fe1ef79ba7692199a99a801e4f68b08983b9fe75b6f5ae2",
+      "portfolio_task3/report/RUBRIC_REVIEW.md": "cafd293c4b62df12e114979139078420fa1c18c76ced5ea95eb148b324ae3c44",
+      "portfolio_task3/results/word_report_verification.json": "091690661def0738ba2102ec88766d79f4197e6f7d48bb00f06873acfc34e906"
+    },
+    "word_and_png_exact_working_file_bytes_preserved": true,
+    "scope": "Documentation publication; the earlier model remote-clone audit is recorded separately in remote_verification.json."
   }
 }
