@@ -117,3 +117,7 @@ statement has been written on the student's behalf.
   all 12 tables are native Word tables, the ANN summary retains 3410 parameters,
   and only three manual evidence placeholders remain. The existing executable
   notebook, model artifacts and numerical results were not edited or retrained.
+- Revised publication QA: a fresh filtered GitHub clone matched all six updated
+  documentation files and the exact revised Word bytes, including all six
+  original embedded PNG byte streams. The verified documentation commit is
+  recorded in `results/word_report_verification.json`.

@@ -50,7 +50,20 @@
   "authorship_restriction_unresolved": true,
   "canvas_submission_claimed": false,
   "remote_publication": {
-    "status": "pending verification after figure-insertion commit"
+    "status": "verified",
+    "source": "fresh filtered GitHub clone and remote main ref",
+    "documentation_commit": "c0d9e458b60c028823184e01e2d66545a6423ea2",
+    "verified_files_sha256": {
+      "portfolio_task3/report/Portfolio_Assessment_3_Explanations_and_Rubric_Review.docx": "bc5e8a0486b1f38a91ed053d9f23f5d3f9433652f7fefbef0beb78fc7ed1d463",
+      "portfolio_task3/report/RUBRIC_REVIEW.md": "1ec25dea3821d1952bc09d2b87df7dd7a77f3582cb6ac81e0708894d175fc147",
+      "portfolio_task3/results/word_report_verification.json": "a641af5e35c2d2ac791dade1a4fb774962326f7f09cdf1c8e2e08400cc46544b",
+      "portfolio_task3/README.md": "b702e9f1e724e5afe41aa82eea120b9d1cde958f04074237934c2e9da4700071",
+      "portfolio_task3/SUBMISSION_TODO.md": "7692de5577d6e84a5adfd64a8c32e5a2003a2180bd2f204443604d0190b03136",
+      "portfolio_task3/ASSISTANCE_LOG.md": "2ee24b8568a2093cef2f369df0f402dfca39ce94a54b5b931e8ac838c6ce0c22"
+    },
+    "word_exact_working_file_bytes_preserved": true,
+    "six_original_embedded_figure_bytes_verified": true,
+    "scope": "Figure-insertion document update; the previous report publication and original model audit remain separate historical evidence."
   },
   "previous_report_versions": [
     {
