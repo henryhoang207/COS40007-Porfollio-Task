@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "review_date": "2026-10-27",
+  "review_timezone": "Asia/Bangkok",
+  "implementation_commit_reviewed": "4768cce29135adac18a12ce192535460c7a60c83",
+  "document": "report/Portfolio_Assessment_3_Explanations_and_Rubric_Review.docx",
+  "document_sha256": "dd90cce0d12a9fe7f087e628da64ec8cf8305cea9946630d7e9dea97bfb2ff2b",
+  "page_count": 13,
+  "screenshot_placeholders": 15,
+  "tables": 11,
+  "rendered_pages_visually_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "render_method": "Canonical renderer attempted; LibreOffice unavailable. Hidden Microsoft Word COM PDF export and bundled pypdfium2 rasterisation at 150 dpi.",
+  "final_render_page_one_rechecked_after_title_border_removal": true,
+  "final_render_pages_two_to_thirteen_pixel_identical_to_inspected_pages": true,
+  "layout_defects_observed": false,
+  "repository_hyperlinks_verified": true,
+  "screenshot_source_files_and_notebook_cell_mapping_verified": true,
+  "applicable_branch": "tabular ANN classification",
+  "scored_criteria": 7,
+  "maximum_available_points": 68,
+  "technical_band_assessment": "Evidence supports Excellent; not an awarded or guaranteed mark",
+  "architecture_rubric_overlap_counted_once": true,
+  "supplemental_scatter_sha256": "0c9b8ae0891cb65d6fe1ef79ba7692199a99a801e4f68b08983b9fe75b6f5ae2",
+  "supplemental_scatter_source": "results/test_predictions.csv; all 3000 fixed rows per model; display-only seed-42 jitter; no model fitting",
+  "model_reload_audit_passed": true,
+  "raw_test_rows_verified_per_model": 3000,
+  "notebook_model_settings_and_measured_results_unchanged": true,
+  "pending_by_request": [
+    "screenshot insertion",
+    "actual submission date",
+    "current Canvas deadline and accepted files",
+    "student personal GenAI learning reflection"
+  ],
+  "authorship_restriction_unresolved": true,
+  "canvas_submission_claimed": false,
+  "remote_publication": {
+    "status": "pending verification after documentation commit"
+  }
+}

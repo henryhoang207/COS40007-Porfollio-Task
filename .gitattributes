@@ -5,6 +5,8 @@ portfolio_task3/models/model_metadata.json -text
 
 # Exported artifacts must retain their exact bytes.
 portfolio_task3/report/*.pdf binary
+portfolio_task3/report/*.docx binary
+portfolio_task3/report/supporting_figures/*.png binary
 portfolio_task3/models/*.h5 binary
 portfolio_task3/models/*.pkl binary
 portfolio_task3/results/*.pkl binary

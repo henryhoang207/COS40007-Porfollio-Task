@@ -31,6 +31,18 @@ submission files and the student's own learning reflection.
 Earlier portfolios and the supplied plan predate this execution request. Their
 assistance histories are not reconstructed or attributed to this session.
 
+Task 3 - Audit and Word explanation. The user supplied the Part A-D task text
+and two rubric images, asked to verify current coverage and the maximum rubric
+band, and requested a DOCX with a brief Part A, in-depth Part B, comparison
+visualisations and screenshot placeholders with exact capture instructions.
+The user subsequently instructed: "continue".
+
+Codex used the Documents skill to create the explanation and rubric review,
+analysed saved predictions for a supplementary classification probability
+scatter, and updated the audit and submission notes. The code, model settings,
+notebook and existing measured outputs were not changed. This documentation
+work was AI-drafted; no student learning experience was invented.
+
 ## 3. Code Attribution only for debugging and helping find errors
 
 The mandatory template heading is retained verbatim. Actual assistance was broader:
@@ -65,3 +77,17 @@ statement has been written on the student's behalf.
 - Final staged-file check identified that the ASCII-encoded PDF was being treated as text. Declared PDF, model, history and figure exports as binary in .gitattributes so their byte offsets and hashes are preserved. No exported artifact bytes were edited.
 
 - Final verification: a clean-environment full run executed all ten code cells without error outputs and reproduced CV, ANN development, final metrics and predictions. A fresh GitHub clone also passed hashes, PDF-byte comparison and independent inference checks on all 3,000 test rows for every exported model.
+
+- Word audit: the independent saved-model reload check passed again. The supplied
+  rubric has seven scored criteria totalling 68; the overlapping architecture
+  row was counted once. Classification/MLP alternatives were applied correctly,
+  and the outstanding authorship issue was retained separately from technical
+  rubric coverage.
+- Document preparation: output files were saved successfully, but an initial
+  console print could not encode the decomposed Unicode workspace path. UTF-8
+  logging corrected this; no experiment or artifact content changed because of
+  that logging error.
+- Document preview: the canonical renderer could not find its LibreOffice
+  runtime. A hidden Word instance exported the document for QA; a cleanup-call
+  argument was corrected. The preview PDF and page images are temporary QA
+  files outside the repository, not additional submission deliverables.

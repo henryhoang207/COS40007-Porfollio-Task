@@ -74,3 +74,24 @@ The short report is `report/Portfolio_Assessment_3_Report.pdf`. The master table
 per-class reports, predictions, split indices and independent reload audit are
 in `results/`; trained models and metadata are in `models/`. The `.pkl` pipeline
 and scaler files use joblib compressed pickle format; use `joblib.load`.
+
+## Explanation document and rubric audit
+
+The Word document is
+[`report/Portfolio_Assessment_3_Explanations_and_Rubric_Review.docx`](report/Portfolio_Assessment_3_Explanations_and_Rubric_Review.docx).
+It gives a brief Part A, a detailed Part B, a four-model comparison and the
+technical reflection answers. Its 15 screenshot placeholders specify exactly
+what to capture and where. The user requested placeholders rather than captured
+screenshots. A cover and Acknowledgement of Country are included; the actual
+submission date remains TBD.
+
+[`report/RUBRIC_REVIEW.md`](report/RUBRIC_REVIEW.md) records the task-by-task
+audit and rubric interpretation. Current technical evidence fits the Excellent
+band across the seven scored criteria (68 points available). This is not an
+official or guaranteed mark, and it does not resolve the brief's authorship
+restriction. Student-only deferred information remains in `SUBMISSION_TODO.md`.
+
+The supplemental `report/supporting_figures/classification_probability_scatter.png`
+uses the saved fixed test predictions. It is a classification diagnostic with
+cosmetic horizontal jitter, not a regression plot or a calibration test. No
+models or frozen recipes were changed to produce this documentation update.
